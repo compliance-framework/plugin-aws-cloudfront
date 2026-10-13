@@ -1,0 +1,4 @@
+lisa-design:
+Seed .release-please-manifest.json at 0.0.0 with no bootstrap-sha (W3-S2 batch 3 addendum): the repo has never released (no tags, no releases) and its history is 3 commits, so release-please counts the whole history and its first release PR proposes the shared initial-version 0.1.0.
+.goreleaser.yaml keeps its builds (linux/darwin x amd64/arm64, binary: plugin) and archive names; only the release block (prerelease: auto, replace_existing_artifacts: true) is added.
+Self-review pass 1 (rules core, go, go-plugin): no findings.
