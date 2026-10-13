@@ -27,6 +27,10 @@ archives:
       {{- else if eq .Arch "arm64" }}arm64
       {{- else }}{{ .Arch }}{{ end }}
 
+release:
+  prerelease: auto
+  replace_existing_artifacts: true
+
 changelog:
   sort: asc
   filters:
