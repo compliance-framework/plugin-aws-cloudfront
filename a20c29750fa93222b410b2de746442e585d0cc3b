@@ -2,3 +2,6 @@ lisa-design:
 - W2-S4-T01 (wave 4, newly public): the repo had no .github/workflows, so nothing is deleted; ci.yml is mock-plugin-1's caller without its trial comment line, all three uses: pins set to workflows v1.5.2 (6e7fc9c0). Identical to plugin-aws-ec2#16's ci.yml except for those pins.
 - No release.yml / build-and-upload.yml added: W3 adds release workflows (user decision 2026-10-13).
 - .goreleaser.yaml: archives.format -> formats: [tar.gz] only; release --snapshot archives before/after are identical (same 4 names, linux+darwin x amd64+arm64, one `plugin` binary each). binary: plugin and targets unchanged.
+
+lisa-selfreview:
+- pass 1 (rules core,go,go-plugin on ci.yml/.goreleaser.yaml): approve, no findings. gofmt, go mod tidy diff, vet, test, race, golangci-lint v2.11.4 shared config (new-from-merge-base=origin/ra/w2-s2-t01-bump-agent, and full tree) 0 issues, actionlint v1.7.12 clean, goreleaser v2.18.2 check rc=0 and snapshot build ok.
