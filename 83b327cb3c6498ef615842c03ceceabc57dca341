@@ -3,3 +3,6 @@ lisa-design:
 - The go directive was already 1.26.1 (what agent v0.9.1 declares), so it is unchanged.
 - go.mod had every requirement marked // indirect (never tidied); tidy makes agent, aws-sdk-go-v2, go-hclog and go-plugin direct, which is the expected result, not a behaviour change.
 - .goreleaser.yaml archives.format deprecation (goreleaser check rc=2 = warning) is left for layer 2 (W2-S4-T01), which owns the shared CI's goreleaser checks.
+
+lisa-selfreview:
+- pass 1 (rules core,go,go-plugin on go.mod/go.sum): approve, no findings. GO-MOD-001 no replace/go.work; PLUGIN-AGENT-001 released tag v0.9.1; tidy is stable; build/vet/test/race/gofmt/golangci-lint (shared config, new-from-merge-base=origin/main and full) clean; goreleaser v2.18.2 check rc=2 (archives.format deprecation, a CI warning) and snapshot build ok.
