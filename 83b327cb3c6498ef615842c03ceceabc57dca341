@@ -1,0 +1,5 @@
+lisa-design:
+- W2-S2-T01: go get agent@v0.9.1 + go mod tidy only. The plugin already stores req.GetPolicyData().AsMap() in Configure and passes it (merged with bundle data.json) to NewPolicyProcessor, so no code change and no "pass policy_data" title.
+- The go directive was already 1.26.1 (what agent v0.9.1 declares), so it is unchanged.
+- go.mod had every requirement marked // indirect (never tidied); tidy makes agent, aws-sdk-go-v2, go-hclog and go-plugin direct, which is the expected result, not a behaviour change.
+- .goreleaser.yaml archives.format deprecation (goreleaser check rc=2 = warning) is left for layer 2 (W2-S4-T01), which owns the shared CI's goreleaser checks.
