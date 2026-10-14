@@ -1,0 +1,3 @@
+lisa-design:
+- LICENSE is a byte-for-byte copy of plugin-aws-ec2's LICENSE (AGPL-3.0), as the task requires.
+- README follows plugin-aws-ec2's structure; config keys, input fields and labels come from internal/config.go, internal/data.go and internal/eval.go. No region key exists: CloudFront and STS calls are pinned to us-east-1. Release lines reuse plugin-template's wording.
