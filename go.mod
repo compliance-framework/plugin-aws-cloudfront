@@ -7,7 +7,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/config v1.32.19
 	github.com/aws/aws-sdk-go-v2/service/cloudfront v1.64.2
 	github.com/aws/aws-sdk-go-v2/service/sts v1.42.2
-	github.com/compliance-framework/agent v0.9.2
+	github.com/compliance-framework/agent v0.9.3
 	github.com/hashicorp/go-hclog v1.6.3
 	github.com/hashicorp/go-plugin v1.7.0
 )
