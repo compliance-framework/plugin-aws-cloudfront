@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.1](https://github.com/compliance-framework/plugin-aws-cloudfront/compare/v0.1.0...v0.1.1) (2026-10-28)
+
+
+### Bug Fixes
+
+* **deps:** bump agent to v0.9.3, workflows to v1.7.0 ([#15](https://github.com/compliance-framework/plugin-aws-cloudfront/issues/15)) ([63985d5](https://github.com/compliance-framework/plugin-aws-cloudfront/commit/63985d564046884bb733b74dbdb7b6b507f5733b))
+* **deps:** bump agent to v0.9.4 ([#19](https://github.com/compliance-framework/plugin-aws-cloudfront/issues/19)) ([d5e7528](https://github.com/compliance-framework/plugin-aws-cloudfront/commit/d5e7528e8bed72e56791043c8bcd3a25bde81eb5))
+* **deps:** update aws-sdk-go-v2 monorepo ([#17](https://github.com/compliance-framework/plugin-aws-cloudfront/issues/17)) ([e37300b](https://github.com/compliance-framework/plugin-aws-cloudfront/commit/e37300badcc5aba197f07f5d55cc63065ccc6ccd))
+* **deps:** update module github.com/hashicorp/go-plugin to v1.8.0 ([#18](https://github.com/compliance-framework/plugin-aws-cloudfront/issues/18)) ([8dee96d](https://github.com/compliance-framework/plugin-aws-cloudfront/commit/8dee96d339bd9d170f51125c8b9e1b826dbcc263))
+
 ## 0.1.0 (2026-10-14)
 
 
