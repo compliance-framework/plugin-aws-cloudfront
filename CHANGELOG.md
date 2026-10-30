@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.2](https://github.com/compliance-framework/plugin-aws-cloudfront/compare/v0.1.1...v0.1.2) (2026-10-30)
+
+
+### Bug Fixes
+
+* **deps:** build with the go1.26.10 toolchain so Renovate can ship Go security fixes ([#20](https://github.com/compliance-framework/plugin-aws-cloudfront/issues/20)) ([5a9c932](https://github.com/compliance-framework/plugin-aws-cloudfront/commit/5a9c9325100df039f07441005999bce6f74da72e))
+* **deps:** update aws-sdk-go-v2 monorepo ([#23](https://github.com/compliance-framework/plugin-aws-cloudfront/issues/23)) ([5b981b6](https://github.com/compliance-framework/plugin-aws-cloudfront/commit/5b981b61e175465df4286eaa48c9aefcb17201ba))
+
 ## [0.1.1](https://github.com/compliance-framework/plugin-aws-cloudfront/compare/v0.1.0...v0.1.1) (2026-10-28)
 
 
