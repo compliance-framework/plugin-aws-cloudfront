@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.3](https://github.com/compliance-framework/plugin-aws-cloudfront/compare/v0.1.2...v0.1.3) (2026-11-07)
+
+
+### Bug Fixes
+
+* **deps:** update aws-sdk-go-v2 monorepo ([#26](https://github.com/compliance-framework/plugin-aws-cloudfront/issues/26)) ([ec5df0f](https://github.com/compliance-framework/plugin-aws-cloudfront/commit/ec5df0f91e6e4852fd74239e5621c590478db660))
+* **deps:** update module github.com/aws/aws-sdk-go-v2/config to v1.33.13 ([#28](https://github.com/compliance-framework/plugin-aws-cloudfront/issues/28)) ([debfd2c](https://github.com/compliance-framework/plugin-aws-cloudfront/commit/debfd2ca4f616eefe86e709bd9a6b447762a94ff))
+
 ## [0.1.2](https://github.com/compliance-framework/plugin-aws-cloudfront/compare/v0.1.1...v0.1.2) (2026-11-02)
 
 
